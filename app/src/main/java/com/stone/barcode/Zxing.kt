@@ -12,6 +12,7 @@ import com.stone.barcode.databinding.ActivityZxingBinding
 class Zxing : AppCompatActivity() {
 
     private lateinit var binding:ActivityZxingBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=DataBindingUtil.setContentView(this,R.layout.activity_zxing)
